@@ -107,11 +107,11 @@ maintenance or launch date page on it).
 ## Install
 
 ```bash
-composer require omnibase/social
+composer require omnipack/social
 ```
 
 Stable releases follow semantic versioning: this installs the latest 2.x, with omnisense/omnibase 7.0 or later
-on Symfony (omnibridge/symfony) and Doctrine ORM (DoctrineBundle), omnibase/admin for the back office. No `minimum-stability` setting is needed.
+on Symfony (omnibridge/symfony) and Doctrine ORM (DoctrineBundle), omnipack/admin for the back office. No `minimum-stability` setting is needed.
 
 ```php
 // config/bundles.php

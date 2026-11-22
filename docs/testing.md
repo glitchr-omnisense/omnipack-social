@@ -30,7 +30,7 @@ foreach (glob('/fam/*/*/composer.json') ?: [] as $file) {
 
 ```bash
 docker run --rm --network none \
-    -v "$PWD":/srv/demo/vendor/omnibase/social:ro -v ~/Sites/omnipost:/fam/omnipost:ro -v /path/to/tools:/tools:ro \
+    -v "$PWD":/srv/demo/vendor/omnipack/social:ro -v ~/Sites/omnipost:/fam/omnipost:ro -v /path/to/tools:/tools:ro \
     --entrypoint sh omnisense/omnibase-harness -c \
     'cd /srv/demo && APP_ENV=test php -d auto_prepend_file=/tools/prepend-families.php vendor/bin/phpunit -c vendor/omnibase/social/phpunit.xml.dist --do-not-cache-result'
 ```

@@ -1,4 +1,4 @@
-# omnibase/social
+# omnipack/social
 
 Social publishing for the sites built on [omnisense/omnibase](https://github.com/glitchr-omnisense/omnibase):
 a reel made from the site's own template - its logo, a band with a name on it, its colours,

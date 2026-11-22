@@ -82,7 +82,7 @@ Parameters: one per key and level (`social.providers`, `social.ffmpeg.binary`,
 `config/services.php` autowires and autoconfigures every class of `src/` but
 `DependencyInjection/`, `Entity/`, `Enum/`, `Exception/`, `Message/`, `Model/`,
 `Controller/Admin/`, `Admin/` and the bundle class; `Controller/Client/` is tagged
-`controller.service_arguments`; with omnibase/admin, `Controller/Admin/` and `Admin/`. The
+`controller.service_arguments`; with omnipack/admin, `Controller/Admin/` and `Admin/`. The
 three handlers are `#[AsMessageHandler]`, the two commands `#[AsCommand]`. `Accounts` needs
 omnipost's `Registry` (its bundle registered) and the core's `SettingBagInterface`; `Publisher`
 omnipost's `Validator`.

@@ -5,7 +5,7 @@ order: 38
 
 # The back office
 
-Loaded when omnibase/admin is installed; the CRUDs keep omnibase/admin's default permissions,
+Loaded when omnipack/admin is installed; the CRUDs keep omnipack/admin's default permissions,
 the accounts page is `ROLE_ADMIN`.
 
 ## Posts
